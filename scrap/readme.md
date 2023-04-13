@@ -2,12 +2,11 @@
 2. Install tooling
 ```
 sudo -s
-apt-get update
-apt install make
-apt install gcc
-apt-get install libelf-dev
+apt-get update-y make gcc libelf-dev
 ```
 ```
+git clone --recurse-submodules https://github.com/lizrice/learning-ebpf
+cd learning-ebpf
 cd libbpf/src
 make install 
 ```
